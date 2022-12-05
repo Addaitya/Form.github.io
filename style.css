@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+}
+
+.one
+{
+    background-color: rgb(239, 239, 239);
+    display:grid;
+   
+    justify-content:center;
+}
+
+#heading
+{
+    font-size: 55px;
+    font-family: Arial;
+    font-weight: bolder;
+    color: blue;
+    text-align: center;
+    width: 400px;
+    margin-top: 20px;
+}
+
+.two
+{
+    width: 400px;
+    /* border: black solid 2px; */
+    background-color: white;
+    box-shadow: 0.5px 0.5px 2px rgba(0,0,0,0.3);
+    border-radius: 7px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    
+}
+
+.create-account
+{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 10px;
+
+}
+
+.easy-way
+{
+    text-align: center;
+    color: gray;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 10px;
+    margin-top: 6px;
+    font-weight: lighter;
+    border-bottom: rgb(187, 184, 184) solid 1px;
+}
+
+#form
+{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.field
+{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 3px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    border: rgb(187, 184, 184) solid 1px;
+    padding-left: 10px;
+    margin-right: 4px;
+    margin-bottom: 10px;
+
+}
+
+#mobile,#password
+{
+    width: 92%;
+}
+
+#birth
+{
+    font-size: 11px;
+    margin-left: 8px;
+    color: darkgray;
+    text-align: left;
+    font-weight: bold;
+    cursor: pointer;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    
+}
+
+#submit
+{
+    background-color: green;
+    border: none;
+    color: white;
+    font-size: 15px;
+    border-radius: 4px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+#gender
+{
+    margin-bottom: 10px;
+}
+#MALE
+{
+    border: rgb(187, 184, 184) solid 1px;
+    display: inline-block;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 46%;
+    text-align: left;
+    
+}
+
+.gender-name
+{
+    margin-left: 10px;
+    margin-right: 45%;
+}
+
+#para1, #para2
+{
+    margin-left: 14px;
+    font-size: 10px;
+    line-height: 15px;
+    text-align: left;
+    margin-bottom: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#already
+{
+    padding-top: 100px;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-align: center;
+}
+
+.blue
+{
+    color: blue;
+    cursor: pointer;
+}
+
+.blue:hover
+{
+    text-decoration: underline;
+}
